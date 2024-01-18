@@ -1,0 +1,18 @@
+body {
+    background-color: lightcoral;
+}
+div.title {
+    text-align: center;
+}
+div.image {
+    display: grid;
+    grid-template-columns: repeat(4, 150px) ;
+    row-gap: 0px;
+    justify-content: center;
+}
+div.item {
+    height: 133px;
+}
+ div.item_1 {
+    display: none;
+ }
